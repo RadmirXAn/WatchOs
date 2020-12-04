@@ -15,6 +15,15 @@ struct Recipes {
     var recipeIcon:String
     var recipeImage:String
     
+    init(recipeName:String,recipeAuthor:String,recipeRating:Double,recipeText:String, recipeIcon:String, recipeImage:String){
+        self.recipeName = recipeName
+        self.recipeAuthor = recipeAuthor
+        self.recipeRating = recipeRating
+        self.recipeText = recipeText
+        self.recipeIcon = recipeIcon
+        self.recipeImage = recipeImage
+    }
+    
     static func getRecipe()->[Recipes]{
         return [
             Recipes(

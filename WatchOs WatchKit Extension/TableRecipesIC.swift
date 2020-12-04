@@ -14,7 +14,7 @@ class TableRecipesIC: WKInterfaceController {
     @IBOutlet weak var table: WKInterfaceTable!
     
     override func awake(withContext context: Any?) {
-        table.setNumberOfRows(Recipes, withRowType: <#T##String#>)
+        //table.setNumberOfRows(Recipes., withRowType: <#T##String#>)
     }
     
     override func willActivate() {
